@@ -1,14 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jeannette Guilavogui - GKS 2027</title>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeannette Guilavogui | GKS 2027</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            max-width: 500px;
+            width: 100%;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h1 { color: #667eea; font-size: 32px; margin-bottom: 10px; }
+        h2 { color: #555; font-size: 18px; font-weight: normal; margin-bottom: 20px; }
+        .flag { font-size: 24px; }
+        .goal-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            margin: 25px 0;
+            font-weight: bold;
+        }
+        p { color: #444; line-height: 1.6; margin: 15px 0; }
+        .day1 { color: #764ba2; font-weight: bold; margin-top: 25px; }
+    </style>
 </head>
 <body>
-  <h1>Jeannette Guilavogui</h1>
-  <h2>Self-taught Developer from Guinea 🇬🇳</h2>
-  <p>I build websites to solve problems in my community.</p>
-  <p><strong>Goal:</strong> GKS Scholarship 2027 - Computer Science</p>
-  <p>Day 1 of building in public.</p>
+    <div class="card">
+        <h1>Jeannette Guilavogui</h1>
+        <h2>Self-taught Developer from Guinea <span class="flag">🇬🇳</span></h2>
+        <p>I build websites to solve problems in my community.</p>
+        <div class="goal-box">
+            🎯 Goal: GKS Scholarship 2027<br>Computer Science in Korea
+        </div>
+        <p class="day1">Day 1 of building in public.</p>
+    </div>
 </body>
 </html>
